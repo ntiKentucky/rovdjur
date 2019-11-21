@@ -1,1 +1,68 @@
-/* Denna fil skall innehålla din CSS kod */
+body {
+    background-color: rgb(255, 254, 234);
+    overflow: scroll;
+}
+
+#container {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'nv nv nv nv'
+    'mn mn mn mn'
+    'ft ft ft ft'
+}
+
+#rubrik {
+text-align: center;
+font-size: 50px;
+}
+
+header {
+    grid-area: hd;
+    text-align: center;
+}
+
+.bar-nav {
+    grid-area: nv;
+    display: block;
+    height: 40px;
+    width: 100%;
+    background: url(img/varg2.png) no-repeat 98% center;
+    cursor: pointer;
+}
+
+
+
+main {
+    grid-area: mn;
+    text-align: center;
+}
+
+footer {
+    grid-area: ft;
+
+}
+
+
+#bild1 {
+    height: 300px;
+    width: 700px;
+}
+
+@media screen and (max-width:480px){
+
+#featured li{
+    width: 90%;
+    margin: 20px 5%;
+}
+
+#home-menu li {
+    float: none;
+    width: 96%;
+    margin: 30px 2% !important
+}
+
+#main-banner img
+
+}

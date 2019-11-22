@@ -10,33 +10,47 @@
 <body>
     <!-- Denna fil skall alltid heta index.html och är den första filen på en hemsida -->
     <div id="container">
-
+ 
     <header>
-        <div class="wrapper">
-            <h1 id="rubrik">Vargar</h1>
+    
 
         <nav>
-            <a class="bar-nav"></a>
-            <h3>Main</h3>
-            <ul>
-                <li><a href="">Wolf Story</a></li>
-                <li><a href="">Menu</a></li>
-                <li><a href="">Information</a></li> 
-            </ul>
-               
+        
+            
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#news">Wolfs</a>
+                <a href="#contact">Maps</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Breeds 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">joe</a>
+                    <a href="#">;)</a>
+                    <a href="#">yes</a>
+                  </div>
+                </div> 
+                <a href="#about">About</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+
+              
         
     </nav>
     </header>
 
 
     <div id="main-banner">
-        <img src="img/varg.jpg" alt="Vargar">
+        <img id="varg" src="img/varg.jpg" alt="Vargar">
+        <h1 id="rubrik">Vargar</h1>
+        
         </div>
 
 
     <div class="wrapper">
         <section id="home-menu">
-                <h2>Information</h2>
+                
 
         </section>
     </div>
@@ -50,7 +64,7 @@
         Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
             </p>
       
-
+            <h2 class="under">Information</h2>
 
 
     </main>

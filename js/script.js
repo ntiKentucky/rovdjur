@@ -1,1 +1,9 @@
-// Denna fil skall innehålla JavaScript (JS)
+const userScore = 0;
+const computerScore = 0;
+const userScore_span = document.getElementById("user-score");
+const computerScore_span = document.getElementById("computer-score"); 
+const scoreBoard_div = document.querySelector(".score-board");
+const result_div = document.querySelector(".result");
+const rock_div = document.getElementById("r");
+const Paper_div = document.getElementById("p");
+const rock_div = document.getElementById("r");

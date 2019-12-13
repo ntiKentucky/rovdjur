@@ -14,7 +14,7 @@ function getComputerChoice() {
     return choices [randomNUmber];
 }
 
-
+wwwaaww
 function game(userChoice) {
     const computerChoice = getComputerChoice();
     switch (userChoice + computerChoice) {

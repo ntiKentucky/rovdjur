@@ -9,6 +9,12 @@ body {
     overflow: scroll;
 }
 
+html {
+  cursor: url("img/thanoscursor.png"), auto;
+  min-height: 100vh;
+
+}
+
 #container {
     display: grid;
     height: 100vh;
@@ -130,7 +136,6 @@ footer > h2 {
   margin-top: 20px; 
 }
 
-@media screen and (max-width:480px)
 
 .topnav {
     overflow: hidden;
@@ -225,4 +230,8 @@ footer > h2 {
       text-align: left;
     }
   }
+  ::backdrop
 
+.news {
+  background-color: aquamarine;
+}
